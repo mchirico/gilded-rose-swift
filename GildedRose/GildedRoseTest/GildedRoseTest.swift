@@ -217,9 +217,6 @@ class GildedRoseTest: XCTestCase {
     let actualOutput = GildedRose.updateQuality(items: input)
     
     XCTAssertEqual(expectedOutput, actualOutput)
-    
-    
-    
   }
   
   func testUpdateQuantityWithConjuredItemAtLowQuality() {
